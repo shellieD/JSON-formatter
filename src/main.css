@@ -1,13 +1,19 @@
 body {
     margin: 0;
     background: #333;
+    font-family: monospace;
+}
+
+.header {
+   color: #fff;
+   text-align: center;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 100px 1fr;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     box-sizing: border-box;
     padding: 20px;
     gap: 20px;
@@ -23,7 +29,6 @@ body {
     border-radius: 10px;
     outline: none;
     resize: none;
-    font-family: monospace;
     transition: background 0.25s, color 0.25s;
 }
 
@@ -46,6 +51,7 @@ body {
     cursor: pointer;
     background: #a32ae1;
     color: #fff;
+    font-family: monospace;
     font-weight: bold;
 }
 
